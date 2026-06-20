@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Force l'image à ne jamais bouger dans le dossier auth */
+.bg-auth {
+  position: fixed !important;
+  inset: 0;
+  z-index: 0;
+  object-fit: cover;
+  pointer-events: none;
+}
